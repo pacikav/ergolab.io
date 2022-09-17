@@ -33,14 +33,16 @@ $(function () {
       
       $('.js-menu a').each(function () {
           $(this).removeClass('active');
-      })
+      });
       $(this).addClass('active');
     
       var target = this.hash,
           menu = target;
       $target = $(target);
+      var scrollStop = (windowWidth > 480) ? ($target.offset().top - 50) : $target.offset().top - 30;
+
       $('html, body').stop().animate({
-          'scrollTop': $target.offset().top - 50
+          'scrollTop': scrollStop
       }, 500, 'swing', function () {
           $(document).on("scroll", onScroll);
       });
@@ -123,6 +125,23 @@ $(function () {
     }
 
     $(document).on("scroll", onScroll);
+
+    // like 
+    $('.js-like').on('click', function() {
+      var likeCount = 0,
+          likeCountWrap = $(this).parent().find('.js-count');
+      if($(this).hasClass('full')) {
+        $(this).removeClass('full');
+        likeCount = (likeCountWrap.html()*1);
+        likeCount --;
+      } else {
+        $(this).addClass('full');
+        likeCount = (likeCountWrap.html()*1);
+        likeCount ++;
+      }
+      likeCountWrap.html(likeCount);
+
+    })
 
   });
 
