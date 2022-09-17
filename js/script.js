@@ -77,7 +77,6 @@ $(function () {
     $('.js-banner-general-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
       fade: true,
     });
     $('.js-banner-nav > div').click(function() {
