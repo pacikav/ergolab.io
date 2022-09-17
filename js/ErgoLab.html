@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ErgoLab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./ErgoLab_files/css2" rel="stylesheet">  
+  <link rel="stylesheet" href="./ErgoLab_files/slick.css">
+  <link rel="stylesheet" href="./ErgoLab_files/style.css">
+<style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head>
+
+<body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.js?v=2.27.10'><\/script>".replace("HOST", location.hostname));
+//]]></script><div style="position: static !important;"></div><script async="" src="./ErgoLab_files/browser-sync-client.js.download"></script>
+
+
+  <header class="header light-blue-bg">
+    <div class="topbar mobile-hidden">
+      <div class="container">
+        Free Shipping | Free Returns | 90-Day Risk Free Trial
+      </div><!-- /.container -->
+    </div>
+    <div class="header__navbar container">
+      <a href="http://localhost:3000/#topbar" class="logo">
+        <svg width="200" height="46.99" viewBox="0 0 200 46.99"><g transform="translate(595.451 -436.379)"><path d="M-595.451,475.259h20.574v-6.446h-13.835v-7.666h13.835V454.8h-13.835v-7.276h13.835v-6.445h-20.574Z" transform="translate(0 -2.765)" fill="#1a256c"></path><path d="M-478.471,466.865a9.2,9.2,0,0,0-7.813-3.712,11.512,11.512,0,0,0-8.643,3.663,12.3,12.3,0,0,0-3.516,8.838,12.319,12.319,0,0,0,3.492,8.863,11.525,11.525,0,0,0,8.667,3.638,9.2,9.2,0,0,0,7.813-3.711v2.637a5.717,5.717,0,0,1-1.709,4.443,6.683,6.683,0,0,1-4.687,1.563q-4.541,0-6.4-3.418l-5.371,3.076a10.583,10.583,0,0,0,4.614,4.444,15.268,15.268,0,0,0,6.958,1.514,14,14,0,0,0,9.009-2.979q3.736-2.979,3.736-8.643V463.837h-6.153Zm-1.929,13.6a6.742,6.742,0,0,1-4.907,1.88,6.74,6.74,0,0,1-4.908-1.88,6.423,6.423,0,0,1-1.929-4.81,6.364,6.364,0,0,1,1.929-4.761,6.741,6.741,0,0,1,4.908-1.88,6.743,6.743,0,0,1,4.907,1.88,6.368,6.368,0,0,1,1.929,4.761A6.426,6.426,0,0,1-480.4,480.464Z" transform="translate(-57.098 -15.759)" fill="#1a256c"></path><path d="M-229.372,466.718a9.588,9.588,0,0,0-7.959-3.565,11.062,11.062,0,0,0-8.375,3.736,12.906,12.906,0,0,0-3.492,9.155,12.906,12.906,0,0,0,3.492,9.156,11.062,11.062,0,0,0,8.375,3.736,9.585,9.585,0,0,0,7.959-3.565v2.881h6.3V463.837h-6.3ZM-231.3,481a6.586,6.586,0,0,1-4.858,1.929A6.5,6.5,0,0,1-240.993,481a6.755,6.755,0,0,1-1.9-4.957,6.756,6.756,0,0,1,1.9-4.956,6.508,6.508,0,0,1,4.834-1.929,6.589,6.589,0,0,1,4.858,1.929,6.71,6.71,0,0,1,1.929,4.956A6.709,6.709,0,0,1-231.3,481Z" transform="translate(-203.804 -15.759)" fill="#1a256c"></path><path d="M-150.176,453.9a11.117,11.117,0,0,0-8.423-3.736,9.451,9.451,0,0,0-7.91,3.565V441.077h-6.3v34.181h6.3v-2.881a9.448,9.448,0,0,0,7.91,3.565,11.117,11.117,0,0,0,8.423-3.736,12.912,12.912,0,0,0,3.491-9.156A12.911,12.911,0,0,0-150.176,453.9Zm-4.737,14.112a6.586,6.586,0,0,1-4.859,1.929,6.5,6.5,0,0,1-4.834-1.929,6.756,6.756,0,0,1-1.9-4.957,6.757,6.757,0,0,1,1.9-4.956,6.507,6.507,0,0,1,4.834-1.929,6.589,6.589,0,0,1,4.859,1.929,6.71,6.71,0,0,1,1.929,4.956A6.709,6.709,0,0,1-154.913,468.007Z" transform="translate(-248.766 -2.765)" fill="#1a256c"></path><path d="M-517.608,463.153h-4.59c-8.4,0-12.716,4.033-12.906,12.147v12.953h6.406V475.2c0-3.653,1.755-5.5,5.266-5.5h1.177a16.1,16.1,0,0,1,3.49-5.449Q-518.2,463.667-517.608,463.153Z" transform="translate(-35.52 -15.759)" fill="#1a256c"></path><path d="M-283.231,468.812H-294.8V441.077h-6.738v34.181h22.256c-.079-.081-.159-.159-.237-.243A16.67,16.67,0,0,1-283.231,468.812Z" transform="translate(-172.996 -2.765)" fill="#1a256c"></path><path d="M-401.911,436.379a22.693,22.693,0,0,0-16.686,6.808,22.689,22.689,0,0,0-6.808,16.686,22.69,22.69,0,0,0,6.808,16.687,22.693,22.693,0,0,0,16.686,6.808,22.843,22.843,0,0,0,16.731-6.808,22.621,22.621,0,0,0,6.853-16.687,22.619,22.619,0,0,0-6.853-16.686A22.843,22.843,0,0,0-401.911,436.379Zm12.349,35.8a18.4,18.4,0,0,1-1.932,1.671,5.244,5.244,0,0,1-7.072-.721c-.023-.031-.051-.058-.074-.089a4.191,4.191,0,0,0-6.445-.008c-.035.043-.074.086-.109.125a5.246,5.246,0,0,1-7.072.7,17.718,17.718,0,0,1-1.939-1.682,16.746,16.746,0,0,1-5.02-12.306,16.745,16.745,0,0,1,5.02-12.306,17.384,17.384,0,0,1,4.038-3.03l.044-.023c2.872-1.536,6-.182,6.361,3.709.209,2.247.291,5.275.67,7.753a1.239,1.239,0,0,0,2.453,0c.376-2.466.459-5.482.667-7.722.36-3.884,3.484-5.256,6.349-3.72a17.486,17.486,0,0,1,4.062,3.034,16.685,16.685,0,0,1,5.055,12.306A16.686,16.686,0,0,1-389.561,472.18Z" transform="translate(-100.088 0)" fill="#1a256c"></path><path d="M-565.239,441.079v6.443h-13.835V445.4a4.323,4.323,0,0,1,4.324-4.32Z" transform="translate(-9.639 -2.766)" fill="#1a256c"></path><path d="M-579.074,508.489h13.835v6.447h-9.512a4.323,4.323,0,0,1-4.324-4.32Z" transform="translate(-9.639 -42.444)" fill="#1a256c"></path><path d="M-535.1,486.019v11.6h6.406V484.568c0-3.653,1.755-5.5,5.266-5.5C-523.432,479.064-535.1,478.695-535.1,486.019Z" transform="translate(-35.52 -25.122)" fill="#1a256c"></path><path d="M-486.284,488.155a9.2,9.2,0,0,0,7.813-3.711v-8.79a6.426,6.426,0,0,1-1.929,4.81,6.742,6.742,0,0,1-4.907,1.88,6.74,6.74,0,0,1-4.908-1.88,6.423,6.423,0,0,1-1.929-4.81,6.364,6.364,0,0,1,1.929-4.761,6.741,6.741,0,0,1,4.908-1.88,6.743,6.743,0,0,1,4.907,1.88,6.368,6.368,0,0,1,1.929,4.761v-8.789a9.2,9.2,0,0,0-7.813-3.712,11.512,11.512,0,0,0-8.643,3.663,12.3,12.3,0,0,0-3.516,8.838,12.319,12.319,0,0,0,3.492,8.863A11.525,11.525,0,0,0-486.284,488.155Z" transform="translate(-57.098 -15.759)" fill="#1a256c"></path><path d="M-141.163,485.2a12.911,12.911,0,0,0,3.491-9.156,12.911,12.911,0,0,0-3.491-9.155,11.117,11.117,0,0,0-8.423-3.736,9.451,9.451,0,0,0-7.91,3.565v9.327a6.757,6.757,0,0,1,1.9-4.956,6.508,6.508,0,0,1,4.834-1.929,6.589,6.589,0,0,1,4.859,1.929,6.71,6.71,0,0,1,1.929,4.956A6.709,6.709,0,0,1-145.9,481a6.586,6.586,0,0,1-4.859,1.929A6.5,6.5,0,0,1-155.593,481a6.756,6.756,0,0,1-1.9-4.957v9.327a9.448,9.448,0,0,0,7.91,3.565A11.117,11.117,0,0,0-141.163,485.2Z" transform="translate(-257.779 -15.759)" fill="#1a256c"></path><path d="M-229.372,476.044A6.709,6.709,0,0,1-231.3,481a6.586,6.586,0,0,1-4.858,1.929A6.5,6.5,0,0,1-240.993,481a6.755,6.755,0,0,1-1.9-4.957,6.756,6.756,0,0,1,1.9-4.956,6.508,6.508,0,0,1,4.834-1.929,6.589,6.589,0,0,1,4.858,1.929,6.71,6.71,0,0,1,1.929,4.956v-9.327a9.588,9.588,0,0,0-7.959-3.565,11.062,11.062,0,0,0-8.375,3.736,12.906,12.906,0,0,0-3.492,9.155,12.906,12.906,0,0,0,3.492,9.156,11.062,11.062,0,0,0,8.375,3.736,9.585,9.585,0,0,0,7.959-3.565Z" transform="translate(-203.804 -15.759)" fill="#1a256c"></path><path d="M-269.646,514.936h-10.882a4.635,4.635,0,0,1-4.637-4.632v-1.814h11.573a16.643,16.643,0,0,0,3.711,6.2C-269.8,514.779-269.724,514.858-269.646,514.936Z" transform="translate(-182.634 -42.444)" fill="#1a256c"></path><path d="M-403.764,454.405c-.383-3.855-3.5-5.188-6.356-3.657a.222.222,0,0,0-.045.021,17.489,17.489,0,0,0-4.04,3.032,16.746,16.746,0,0,0-5.019,12.305,16.746,16.746,0,0,0,5.019,12.305,17.607,17.607,0,0,0,1.942,1.683,5.309,5.309,0,0,0,1.794.876l-3.188,5.628a23.49,23.49,0,0,1-4.937-3.805,22.676,22.676,0,0,1-6.809-16.686,22.675,22.675,0,0,1,6.809-16.686c0-.008.012-.012.016-.016a8.077,8.077,0,0,1,4.414-2.238C-404.583,445.605-403.81,453.706-403.764,454.405Z" transform="translate(-100.089 -6.231)" fill="#1a256c"></path><path d="M-420.445,481.53c9.414,8.412,15.361-1.458,15.361-1.458-.035.043-.074.086-.109.125a5.246,5.246,0,0,1-7.072.7,17.725,17.725,0,0,1-1.939-1.682,16.746,16.746,0,0,1-5.02-12.306,16.744,16.744,0,0,1,5.02-12.306c.249-.249.506-.481.763-.711l-3.033-5.558a25.041,25.041,0,0,0-2.122,1.888,22.689,22.689,0,0,0-6.808,16.687A22.691,22.691,0,0,0-420.445,481.53Z" transform="translate(-100.088 -7.039)" fill="#1a256c"></path><path d="M-363.571,454.405c.383-3.855,3.5-5.188,6.356-3.657a.221.221,0,0,1,.045.021,17.489,17.489,0,0,1,4.04,3.032,16.746,16.746,0,0,1,5.019,12.305,16.746,16.746,0,0,1-5.019,12.305,17.607,17.607,0,0,1-1.942,1.683,5.309,5.309,0,0,1-1.794.876l3.188,5.628a23.488,23.488,0,0,0,4.937-3.805,22.676,22.676,0,0,0,6.809-16.686,22.675,22.675,0,0,0-6.809-16.686c0-.008-.012-.012-.016-.016a8.077,8.077,0,0,0-4.414-2.238C-362.752,445.605-363.526,453.706-363.571,454.405Z" transform="translate(-136.484 -6.231)" fill="#1a256c"></path><path d="M-345.006,481.53c-9.413,8.412-15.361-1.458-15.361-1.458.035.043.074.086.109.125a5.247,5.247,0,0,0,7.072.7,17.8,17.8,0,0,0,1.939-1.682,16.745,16.745,0,0,0,5.02-12.306,16.744,16.744,0,0,0-5.02-12.306c-.249-.249-.506-.481-.763-.711l3.034-5.558a24.98,24.98,0,0,1,2.122,1.888,22.69,22.69,0,0,1,6.808,16.687A22.692,22.692,0,0,1-345.006,481.53Z" transform="translate(-138.37 -7.039)" fill="#1a256c"></path></g></svg>
+      </a>
+      <div class="navbar-btn js-menu-btn">
+        <em></em>
+      </div>
+      <div class="navbar js-menu">
+        <ul>
+          <li class="navbar__active"><a href="http://localhost:3000/#overview">Overview</a></li>
+          <li><a href="http://localhost:3000/#benefits">Benefits</a></li>
+          <li><a href="http://localhost:3000/#science">The Science</a></li>
+          <li><a href="http://localhost:3000/#why-ergolab">Why ErgoLab</a></li>
+          <li><a href="http://localhost:3000/#promise">Promise</a></li>
+          <li><a href="http://localhost:3000/#reviews">Reviews</a></li>
+          <li><a href="http://localhost:3000/#faq">FAQ</a></li>
+        </ul>
+      </div>
+    </div><!-- /.container -->
+  </header>
+
+  <div class="banner light-blue-bg">
+    <div class="container">
+      <div class="row">
+        <div class="desktop-hidden">
+          <div class="rating">
+            <div class="rating__stars">
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+            </div>
+            <div class="rating__value">
+              Rated 4.8/5
+            </div>
+          </div><!-- /.rating -->
+          <h1>
+            Enjoy The Best Night’s Sleep Of Your Life &amp; <span class="text-blue">A Magical Morning</span>
+          </h1>
+        </div>
+        <div class="col banner__slider">
+          <div class="mobile-visible">
+            <div class="js-banner-mobile-slider slick-initialized slick-slider slick-dotted">
+              <div class="slick-list draggable" style="padding: 0px 25px;"><div class="slick-track" style="opacity: 1; width: 0px; transform: translate3d(100px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-4.jpg" alt=""></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-5.jpg" alt=""></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-1.jpg" alt=""></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-2.jpg" alt=""></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-3.jpg" alt=""></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-4.jpg" alt=""></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04" aria-describedby="slick-slide-control04" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-5.jpg" alt=""></div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-1.jpg" alt=""></div><div class="slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-2.jpg" alt=""></div><div class="slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-3.jpg" alt=""></div><div class="slick-slide slick-cloned slick-center" data-slick-index="8" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-4.jpg" alt=""></div><div class="slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style="width: 0px;"><img src="./ErgoLab_files/Pillow-product-5.jpg" alt=""></div></div></div>
+              
+              
+              
+              
+            <ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 5" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 5" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 5" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 5" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control04" aria-controls="slick-slide04" aria-label="5 of 5" tabindex="-1">5</button></li></ul></div>
+          </div> <!-- /.mobile-visible (slider) -->
+          <div class="mobile-hidden">
+            <div class="js-banner-general-slider banner__slider-general slick-initialized slick-slider">
+              <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2070px;"><div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 414px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img src="./ErgoLab_files/Pillow-product-1(1).jpg" alt=""></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 414px; position: relative; left: -414px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img src="./ErgoLab_files/Pillow-product-2(1).jpg" alt=""></div><div class="slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 414px; position: relative; left: -828px; top: 0px; z-index: 999; opacity: 1;"><img src="./ErgoLab_files/Pillow-product-3(1).jpg" alt=""></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 414px; position: relative; left: -1242px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img src="./ErgoLab_files/Pillow-product-4(1).jpg" alt=""></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 414px; position: relative; left: -1656px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;"><img src="./ErgoLab_files/Pillow-product-5(1).jpg" alt=""></div></div></div>
+              
+              
+              
+              
+            </div>
+            <div class="js-banner-nav banner__slider-nav">
+              <div class="banner__slider-nav-item"><img src="./ErgoLab_files/1.png" alt=""></div>
+              <div class="banner__slider-nav-item"><img src="./ErgoLab_files/2.png" alt=""></div>
+              <div class="banner__slider-nav-item"><img src="./ErgoLab_files/3.png" alt=""></div>
+              <div class="banner__slider-nav-item"><img src="./ErgoLab_files/4.png" alt=""></div>
+              <div class="banner__slider-nav-item"><img src="./ErgoLab_files/5.png" alt=""></div>
+            </div>
+          </div> <!-- /.desktop and table-visible (slider) -->
+        </div>
+        <div class="col">
+          <div class="banner__text">
+            <div class="tablet-hidden">
+              <div class="rating">
+                <div class="rating__stars">
+                  <span class="rating__star"></span>
+                  <span class="rating__star"></span>
+                  <span class="rating__star"></span>
+                  <span class="rating__star"></span>
+                  <span class="rating__star"></span>
+                </div>
+                <div class="rating__value">
+                  Rated 4.8/5
+                </div>
+              </div><!-- /.rating -->
+              <h1>
+                Enjoy The Best Night’s Sleep Of Your Life &amp; <span class="text-blue">A Magical Morning</span>
+              </h1>
+            </div>
+            <div class="banner__info tablet-hidden">
+              <img src="./ErgoLab_files/proven.svg" alt="">
+              <p>
+                Scientifically Proven To Help You Easily Fall &amp; Stay Asleep With Its Unique Orthopedic Butterfly Design Made With Premium Memory Foam
+              </p>
+            </div><!-- /.banner__info -->
+            <div class="banner__list text-md check-list">
+              <ul>
+                <li>Eliminate Neck, Shoulder &amp; Back Pain</li>
+                <li>Perfect For Side, Back, &amp; Stomach Sleepers</li>
+                <li>Supports Your Spine’s Natural Curvature</li>
+                <li>Wake Up Refreshed, Alert &amp; Energized</li>
+                <li>Best Night’s Sleep Guaranteed (or your money back)</li>
+              </ul>
+            </div><!-- /.banner__text -->
+            <div class="try-free try-free--fixed">
+              <a href="http://localhost:3000/#" class="btn btn--triangle">TRY IT RISK-FREE</a>
+              <small>-90-Day Money Back Guarantee-</small>
+            </div><!-- /.try-free -->
+          </div><!-- /.banner__text -->
+        </div>
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.banner -->
+
+  <div class="promotion blue-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="promotion__item">
+            <div class="promotion__icon">
+              <img src="./ErgoLab_files/nithts.svg" alt="90-Night Risk-Free Trial">
+            </div>
+            <p class="text-sm">90-Night Risk-Free Trial</p>
+          </div><!-- /.promotion__item -->
+        </div>
+        <div class="col">
+          <div class="promotion__item">
+            <div class="promotion__icon">
+              <img src="./ErgoLab_files/warranty.svg" alt="1 Year Warranty">
+            </div>
+            <p class="text-sm">1 Year Warranty</p>
+          </div><!-- /.promotion__item -->
+        </div>
+        <div class="col">
+          <div class="promotion__item">
+            <div class="promotion__icon">
+              <img src="./ErgoLab_files/shipping.svg" alt="Free 2-Day Shipping">
+            </div>
+            <p class="text-sm">Free 2-Day Shipping</p>
+          </div><!-- /.promotion__item -->
+        </div>
+        <div class="col">
+          <div class="promotion__item">
+            <div class="promotion__icon">
+              <img src="./ErgoLab_files/returns.svg" alt="Free Returns">
+            </div>
+            <p class="text-sm">Free Returns</p>
+          </div><!-- /.promotion__item -->
+        </div>
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.promotion -->
+
+  <div class="section section--small-top">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="text-red">Lack Of Sleep Is A Public Health Problem</h2>
+        <h4 class="text-grey">Over 37% of Australians Don’t Get A Healthy Night’s Rest!</h4>
+        <p class="text-grey mobile-text-red">
+          When you struggle with sleep deprivation or insomnia, your body and mind suffer too. This can result in chronic health problems such as high blood pressure, diabetes, heart disease, depression, etc.
+        </p>
+      </div>
+      <div class="row lack-wrap">
+        <div class="col">
+          <div class="lack">
+            <div class="lack__img">
+              <img src="./ErgoLab_files/1(1).png" alt="">
+            </div>
+            <div class="lack__title">Day-Long Fatigue</div>
+          </div><!-- /.lack -->
+        </div>
+        <div class="col">
+          <div class="lack">
+            <div class="lack__img">
+              <img src="./ErgoLab_files/2(1).png" alt="">
+            </div>
+            <div class="lack__title">Poor Focus</div>
+          </div><!-- /.lack -->
+        </div>
+        <div class="col">
+          <div class="lack">
+            <div class="lack__img">
+              <img src="./ErgoLab_files/3(1).png" alt="">
+            </div>
+            <div class="lack__title">Anxiety &amp; Stress</div>
+          </div><!-- /.lack -->
+        </div>
+        <div class="col">
+          <div class="lack">
+            <div class="lack__img">
+              <img src="./ErgoLab_files/4(1).png" alt="">
+            </div>
+            <div class="lack__title">Mood Swings</div>
+          </div><!-- /.lack -->
+        </div>
+      </div>
+      <div class="text-img-section">
+        <div class="text-img-section__img">
+          <img src="./ErgoLab_files/ucla-logo.png" alt="UCLA">
+        </div>
+        <p>
+          According to research from UCLA, one of America’s top universities, “Just one night of not getting enough sleep in adults activates 
+          important biological pathways that promote biological aging”, says renowned UCLA doctor Judith Carroll.
+        </p>
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section light-blue-bg text-center">
+    <div class="container">
+      <h2>Meet ErgoLab’s Deep Sleep Pillow</h2>
+      <h4 class="text-mobile-bold">Wake Up <span class="text-blue">Refreshed &amp; Revitalized</span> After <br class="mobile-hidden"> A Good Night’s Sleep</h4>
+      <p class="text-mobile-letter-spacing">
+        Provides ergonomic support by properly aligning your head, neck and spine with its unique butterfly 
+        shape for ideal comfort. Sleep deeper and start your day feeling refreshed &amp; energized in the morning 
+        with ErgoLab’s #1 orthopedic pillow. Made with premium memory foam, Deep Sleep adapts to your unique 
+        body shape no matter whether you sleep on your side, back or stomach.
+      </p>
+
+      <div class="orthopedic">
+        <h4>Orthopedic Contour Pillow.</h4>
+        <p class="text-dark-blue">Properly aligns the head, neck &amp; spine for ideal comfort.</p>
+        <div class="orthopedic__img">
+          <img class="mobile-hidden" src="./ErgoLab_files/orthoprdic-contour-pillow.svg" alt="">
+          <img class="mobile-visible" src="./ErgoLab_files/orthoprdic-contour-pillow-mobile.png" alt="">
+        </div>
+      </div>
+
+      <div class="benefits element">
+        <div class="row">
+          <div class="col">
+            <div class="benefits__img">
+              <img src="./ErgoLab_files/1(2).png" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div class="benefits__text">
+              <h2>Advanced Orthopedic Technology</h2>
+              <p>
+                We designed this cutting-edge pillow to help support your head and neck while you sleep. 
+                Two “Butterfly Wing” cut-outs provide luxurious comfort whether you sleep on your side, back or stomach.
+              </p>
+            </div>
+          </div>
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col">
+            <div class="benefits__img">
+              <img src="./ErgoLab_files/2(2).png" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div class="benefits__text">
+              <h2>Optimal Cushioning For Your Unique Shape</h2>
+              <p>
+                Our OEKO-TEX certified “Sleep-Easy” memory foam gently hugs your head, providing customized, cloud-like comfort.
+              </p>
+            </div>
+          </div>
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col">
+            <div class="benefits__img">
+              <img src="./ErgoLab_files/3(2).png" alt="">
+            </div>
+          </div>
+          <div class="col">
+            <div class="benefits__text">
+              <h2>Ventilation Keeps You Cool &amp; Comfortable</h2>
+              <p>
+                We crafted our Deep Sleep Pillow with a breathable material that helps wick away moisture, providing 
+                continuous airflow while you sleep. Even if you toss and turn, this pillow feels like the “cool side”.
+              </p>
+            </div>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.benefits -->
+
+      <div class="testimonial">
+        <div class="testimonial__photo-wrap">
+          <div class="testimonial__photo">
+            <span class="testimonial__quote">“</span>
+            <img src="./ErgoLab_files/review.png" alt="">
+            <span class="testimonial__quote testimonial__quote--rotation">“</span>
+          </div>
+        </div>
+        <p class="text-italic">“I had the best night's sleep on this pillow! I woke up without neck pain for the first time in years.”</p>
+        <p class="text-bold">Try It Risk-Free For A Full 90 nights!</p>
+      </div><!-- /.testimonial -->
+
+      <div class="try-free mobile-hidden">
+        <a href="http://localhost:3000/#" class="btn btn--triangle">TRY IT RISK-FREE</a>
+        <small>-90-Day Money Back Guarantee-</small>
+      </div><!-- /.try-free -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="text-center element">
+        <h2>Feel The Difference From Your First Night</h2>
+        <p class="text-mobile-letter-spacing">
+          From the first night of using the ErgoLab Deep Sleep Pillow, you can expect to feel several benefits such 
+          as falling asleep easier, deeper REM sleep, no neck and shoulder pain and waking up refreshed and energized to start your day.
+        </p>
+      </div>
+
+      <div class="difference element">
+        <div class="difference__item">
+          <div class="difference__title difference__title--red">
+            <h3>Your Current Pillow</h3>
+          </div>
+          <p class="text-center text-red">
+            Your traditional pillow isn’t built for support, meaning your spine 
+            ends up in an unnatural curve – resulting in pain, discomfort, 
+            and poor-quality sleep. Thus, resulting in chronic health problems.
+          </p>
+          <div class="difference__img">
+            <img src="./ErgoLab_files/difference-red.png" alt="">
+          </div>
+          <div class="difference__list difference__list--red">
+            <ul>
+              <li>Wake Up Tired &amp; Sleepy</li>
+              <li>Long-Term Health Problems</li>
+              <li>Neck &amp; Shoulder Pain</li>
+              <li>Stressed &amp; Moody</li>
+              <li>Difficulty Falling Asleep</li>
+            </ul>
+          </div>
+        </div><!-- /.difference__item -->
+        <div class="difference__item">
+          <div class="difference__title difference__title--green">
+            <h3>Your New ErgoLab Pillow</h3>
+          </div>
+          <p class="text-center text-green">
+            ErgoLab’s unique butterfly design and advanced memory foam technology 
+            straightens and supports your spine in its natural position, eliminating pain and improving sleep
+          </p>
+          <div class="difference__img">
+            <img src="./ErgoLab_files/difference-green.png" alt="">
+          </div>
+          <div class="difference__list difference__list--green">
+            <ul>
+              <li>Wake Up Refreshed &amp; Energized</li>
+              <li>Healthy Long-Term Solution</li>
+              <li>No Body Aches</li>
+              <li>Relaxed &amp; Calm</li>
+              <li>Fall &amp; Stay Asleep All Night </li>
+            </ul>
+          </div>
+        </div><!-- /.difference__item -->
+      </div><!-- /.difference -->
+
+      <h4 class="text-center text-mobile-bigger">Perfect Sleep Every Night</h4>
+      <div class="promotion">
+        <div class="row">
+          <div class="col">
+            <div class="promotion__item">
+              <div class="promotion__icon">
+                <img src="./ErgoLab_files/doctor-recommeded.svg" alt="Doctor Recommended">
+              </div>
+              <p class="text-md">Doctor Recommended</p>
+            </div><!-- /.promotion__item -->
+          </div>
+          <div class="col">
+            <div class="promotion__item">
+              <div class="promotion__icon">
+                <img src="./ErgoLab_files/one-size.svg" alt="One Size Fits All">
+              </div>
+              <p class="text-md">One Size Fits All</p>
+            </div><!-- /.promotion__item -->
+          </div>
+          <div class="col">
+            <div class="promotion__item">
+              <div class="promotion__icon">
+                <img src="./ErgoLab_files/removable-case.svg" alt="Removable Pillow Case">
+              </div>
+              <p class="text-md">Removable Pillow Case</p>
+            </div><!-- /.promotion__item -->
+          </div>
+          <div class="col">
+            <div class="promotion__item">
+              <div class="promotion__icon">
+                <img src="./ErgoLab_files/mashine-washable.svg" alt="Machine Washable">
+              </div>
+              <p class="text-md">Machine Washable</p>
+            </div><!-- /.promotion__item -->
+          </div>
+          <div class="col">
+            <div class="promotion__item">
+              <div class="promotion__icon">
+                <img src="./ErgoLab_files/cool.svg" alt="Cool &amp; Breathable">
+              </div>
+              <p class="text-md">Cool &amp; Breathable</p>
+            </div><!-- /.promotion__item -->
+          </div>
+          <div class="col">
+            <div class="promotion__item">
+              <div class="promotion__icon">
+                <img src="./ErgoLab_files/certified.svg" alt="3rd Party Certified">
+              </div>
+              <p class="text-md">3rd Party Certified</p>
+            </div><!-- /.promotion__item -->
+          </div>
+        </div>
+      </div><!-- /.promotion -->
+
+      <div class="try-free mobile-hidden">
+        <a href="http://localhost:3000/#" class="btn btn--triangle">TRY IT RISK-FREE</a>
+        <small>-90-Day Money Back Guarantee-</small>
+      </div><!-- /.try-free -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section blue-bg text-center">
+    <div class="container">
+      <div class="element">
+        <h2>Comfort In Every Sleep Position</h2>
+        <p>Whether you sleep on your side, back or stomach — or any combination — Deep Sleep was designed with unique features to support every type of sleeper.</p>
+      </div>
+
+      <div class="row sleepers-wrap">
+        <div class="col">
+          <div class="sleepers">
+            <div class="sleepers__img sleepers__img--side">
+              <img src="./ErgoLab_files/side-sleeper.png" alt="">
+            </div>
+            <h5>Side Sleepers</h5>
+            <p class="text-md">
+              If you sleep on your side, you’re not alone — it’s the most popular sleep position 
+              in Thailand! Simply rest one arm in either of the Deep Sleep’s side contours for effortless comfort.
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="sleepers">
+            <div class="sleepers__img sleepers__img--back">
+              <img src="./ErgoLab_files/back-sleeper.png" alt="">
+            </div>
+            <h5>Back Sleepers</h5>
+            <p class="text-md">
+              Deep Sleep was designed to prop up the head and neck comfortably for back sleepers. 
+              Just rest your head on the ultra-plush centre “Ortho-Groove” for soft yet secure support.
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="sleepers">
+            <div class="sleepers__img sleepers__img--stomach">
+              <img src="./ErgoLab_files/stomach-sleeper.png" alt="">
+            </div>
+            <h5>Stomach Sleepers</h5>
+            <p class="text-md">
+              Stomach sleepers need even more support than usual. That’s why Deep Sleep helps to 
+              support your head while arm contours on both sides provide an easy resting place for both arms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="text-center">
+        <h2>ErgoLab Vs Others</h2>
+        <h4>Make The Smart Choice</h4>
+        <p class="text-lighter-blue text-mobile-semibold">
+          Your health and sleep matter. It’s time to stop using traditional cheap pillows 
+          and invest in a quality orthopedic pillow with premium memory foam. Improve your 
+          sleep and start waking up fresh and energised every morning with the ErgoLab Deep Sleep Pillow.
+        </p>
+      </div>
+
+      <div class="comparison-table">
+        <div class="comparison-table__header">
+          <div class="comparison-table__header-item">
+            <div class="comparison-table__pillow comparison-table__pillow--deep">
+              <img src="./ErgoLab_files/deep-sleep.png" alt="">
+            </div>
+            <img class="comparison-table__logo" src="./ErgoLab_files/logo-green.svg" alt="">
+          </div>
+          <div class="comparison-table__header-item">
+            <div class="comparison-table__pillow">
+              <img src="./ErgoLab_files/other-pillows.png" alt="">
+            </div>
+            <p class="text-bold">Other Brand</p>
+          </div>
+        </div>
+        <div class="comparison-table__body">
+          <div class="row">
+            <div class="col col--wide">For Side, Back &amp; Stomach Sleepers</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">Promotes Deep REM Sleep</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">Doctor Recommended</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">Premium Memory Foam</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">Molds To Your Shape</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">One Size Fits All</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">Breathable &amp; Machine Washable</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">Sleep 8+ Hours Uninterrupted</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col col--wide">90-Nights Guarantee</div>
+            <div class="col"><img src="./ErgoLab_files/check-green.svg" alt=""></div>
+            <div class="col"><img src="./ErgoLab_files/cross-red.svg" alt=""></div>
+          </div>
+        </div>
+      </div><!-- /.comparison-table -->
+
+      <div class="try-free tablet-hidden">
+        <a href="http://localhost:3000/#" class="btn btn--triangle">TRY IT RISK-FREE</a>
+        <small>-90-Day Money Back Guarantee-</small>
+      </div><!-- /.try-free -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section light-blue-bg">
+    <div class="container">
+      <div class="text-center">
+        <h2>ErgoLab’s Promise <br> Your Sleep &amp; Health Above All Else</h2>
+        <p class="text-mobile-semibold">
+          ErgoLab’s Deep Sleep Pillow, made with premium memory foam, comes with years 
+          of research by leading sleep experts to ensure it’s entirely safe and offers 
+          maximum benefits and comfort compared to other products on the market.
+        </p>
+      </div>
+
+      <div class="guarantee element">
+        <div class="guarantee__text">
+          <div class="guarantee__img">
+            <img src="./ErgoLab_files/guarantee.png" alt="">
+          </div>
+          <h4>ErgoLab’s <br> 90-Nights Money-Back Guarantee</h4>
+          <p class="text-sm">
+            We stand behind every order with an unconditional 90-nights money-back guarantee. 
+            If you’re not happy with your order from this site for ANY reason, we want you 
+            to request and RECEIVE a FULL REFUND of every baht paid, including the return 
+            shipping. We don’t hide behind any fine print or loophole. Every order is 
+            protected and fully refundable, no questions asked.
+          </p>
+          <img src="./ErgoLab_files/signin.svg" alt="">
+          <p>
+            <strong class="text-bold">Luka Bozic</strong> <br>
+            <span class="text-medium">ErgoLab Founder</span>
+          </p>
+        </div><!-- /.guarantee__text -->
+  
+        <div class="guarantee-logos">
+          <div class="guarantee-logos__logo">
+            <img src="./ErgoLab_files/butterfly-design.svg" alt="">
+            <h6>Unique Butterfly Design</h6>
+          </div>
+          <div class="guarantee-logos__logo">
+            <img src="./ErgoLab_files/memory-foam.svg" alt="">
+            <h6>Premium Memory Foam</h6>
+          </div>
+          <div class="guarantee-logos__logo">
+            <img src="./ErgoLab_files/recommended.svg" alt="">
+            <h6>Doctor Recommended</h6>
+          </div>
+          <div class="guarantee-logos__logo">
+            <img src="./ErgoLab_files/clinicaly.svg" alt="">
+            <h6>Clinically Proven</h6>
+          </div>
+          <div class="guarantee-logos__logo">
+            <img src="./ErgoLab_files/certified(1).svg" alt="">
+            <h6>3rd Party Certified</h6>
+          </div>
+          <div class="guarantee-logos__logo">
+            <img src="./ErgoLab_files/research.svg" alt="">
+            <h6>Research Backed Pillow</h6>
+          </div>
+        </div><!-- /.guarantee__logos -->
+      </div><!-- /.guarantee -->
+  
+      <div class="try-free mobile-hidden">
+        <a href="http://localhost:3000/#" class="btn btn--triangle">TRY IT RISK-FREE</a>
+        <small>-90-Day Money Back Guarantee-</small>
+      </div><!-- /.try-free -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="text-center element">
+        <h2>Real People. Real Results.</h2>
+        <h4>Hear What Customers Have To Say</h4>
+      </div>
+
+      <div class="reviews text-center element">
+        <div class="row js-mobile-slider">
+          <div class="col">
+            <div class="reviews__item">
+              <div class="reviews__title">
+                <div class="rating rating--center">
+                  <div class="rating__stars rating__stars--border">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-italic text-md text-lighter-blue">
+                  I finally got a good <br class="mobile-visible"> night’s sleep.
+                </p>
+              </div>
+              <div class="reviews__img">
+                <img src="./ErgoLab_files/review1.png" alt="">
+              </div>
+              <div class="mobile-hidden">
+                <p class="text-dark-blue">Pandy</p>
+                <p class="text-xsm d-flex-inline text-center text-grey"><span class="heart heart--full"></span> 235 People found this helpful</p>
+              </div>
+            </div><!-- /.reviews__item -->
+          </div>
+          <div class="col">
+            <div class="reviews__item">
+              <div class="reviews__title">
+                <div class="rating rating--center">
+                  <div class="rating__stars rating__stars--border">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-italic text-md text-lighter-blue">
+                  “ErgoLab support good sleep, <br class="mobile-visible"> very soft and comfortable”
+                </p>
+              </div>
+              <div class="reviews__img">
+                <img src="./ErgoLab_files/review2.png" alt="">
+              </div>
+              <div class="mobile-hidden">
+                <p class="text-dark-blue">Julia</p>
+                <p class="text-xsm d-flex-inline text-center text-grey"><span class="heart"></span> 119 People found this helpful</p>
+              </div>
+            </div><!-- /.reviews__item -->
+          </div>
+          <div class="col"> 
+            <div class="reviews__item">
+              <div class="reviews__title">
+                <div class="rating rating--center">
+                  <div class="rating__stars rating__stars--border">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-italic text-md text-lighter-blue">
+                  “Pillows help support the body <br class="mobile-visible"> very well. Better health too.”
+                </p>
+              </div>
+              <div class="reviews__img">
+                <img src="./ErgoLab_files/review3.png" alt="">
+              </div>
+              <div class="mobile-hidden">
+                <p class="text-dark-blue">Amanda</p>
+                <p class="text-xsm d-flex-inline text-center text-grey"><span class="heart"></span> 371 People found this helpful</p>
+              </div>
+            </div><!-- /.reviews__item -->
+          </div>
+        </div>
+      </div><!-- /.reviews -->
+
+      <div class="avarage-rating element">
+        <div class="avarage-rating__general-value text-center">
+          <div class="avarage-rating__val">4.6</div>
+          <div class="rating rating--center">
+            <div class="rating__stars">
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+            </div>
+          </div><!-- /.rating --> 
+          <p class="text-sm">Average Rating</p>
+        </div>
+        <div class="avarage-rating__progress-wrap">
+          <div class="row js-progress-parent">
+            <div class="avarage-rating__progress-bar">
+              <div class="avarage-rating__progress js-progress" style="width: 98%;"></div>
+            </div>
+            <div class="rating">
+              <div class="rating__stars">
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+              </div>
+              <div class="rating__value js-progress-val">
+                98%
+              </div>
+            </div><!-- /.rating --> 
+          </div>
+          <div class="row js-progress-parent">
+            <div class="avarage-rating__progress-bar">
+              <div class="avarage-rating__progress js-progress" style="width: 2%;"></div>
+            </div>
+            <div class="rating">
+              <div class="rating__stars">
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+              </div>
+              <div class="rating__value js-progress-val">
+                2%
+              </div>
+            </div><!-- /.rating --> 
+          </div>
+          <div class="row js-progress-parent">
+            <div class="avarage-rating__progress-bar">
+              <div class="avarage-rating__progress js-progress" style="width: 0%;"></div>
+            </div>
+            <div class="rating">
+              <div class="rating__stars">
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+              </div>
+              <div class="rating__value js-progress-val">
+                0%
+              </div>
+            </div><!-- /.rating --> 
+          </div>
+          <div class="row js-progress-parent">
+            <div class="avarage-rating__progress-bar">
+              <div class="avarage-rating__progress js-progress" style="width: 0%;"></div>
+            </div>
+            <div class="rating">
+              <div class="rating__stars">
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+              </div>
+              <div class="rating__value js-progress-val">
+                0%
+              </div>
+            </div><!-- /.rating --> 
+          </div>
+          <div class="row js-progress-parent">
+            <div class="avarage-rating__progress-bar">
+              <div class="avarage-rating__progress js-progress" style="width: 0%;"></div>
+            </div>
+            <div class="rating">
+              <div class="rating__stars">
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+                <span class="rating__star"></span>
+              </div>
+              <div class="rating__value js-progress-val">
+                0%
+              </div>
+            </div><!-- /.rating --> 
+          </div>
+        </div>
+        <div class="avarage-rating__text text-center">
+          <div class="avarage-rating__percent">98%</div>
+          <p class="text-sm">Of customers the buy from this Merchant give them a 5-Ster rating</p>
+        </div>
+      </div><!-- /.avarage-rating -->
+
+      <div class="testimonials text-sm">
+        <div class="testimonials__item">
+          <div class="testimonials__photo tablet-hidden">
+            <img src="./ErgoLab_files/DougG.png" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__meta">
+              <div class="testimonials__photo desktop-hidden">
+                <img src="./ErgoLab_files/DougG.png" alt="">
+              </div>
+              <div>
+                <div class="rating">
+                  <div class="rating__stars">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-medium desktop-hidden d-flex-inline">
+                  <strong>Doug G.</strong> -Memphis, TN <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+                </p>
+              </div>
+            </div><!-- /.testimonials__meta -->
+            <p>
+              I was having much difficulty sitting for long periods of time. Pain behind my legs and tailbone made traveling 
+              a torture, even sitting through church service. A friend recommended this to me. It has made such a difference. 
+              Two of my church friends have purchased theirs after seeing mine. Six of my fellow polymyalgia sufferers have 
+              made a purchase. My daughter and her boyfriend now each have one! I have recommended this to everyone! I really 
+              should get a commission for these sales!!! Life is so much better!
+            </p>
+            <p class="text-medium tablet-hidden d-flex-inline">
+              <span class="text-md"><strong>Doug G.</strong> -Memphis, TN</span> <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+            </p>
+          </div><!-- /.testimonials__content -->
+        </div><!-- /.testimonials__item -->
+        <div class="testimonials__item">
+          <div class="testimonials__photo tablet-hidden">
+            <img src="./ErgoLab_files/BugyB.png" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__meta">
+              <div class="testimonials__photo desktop-hidden">
+                <img src="./ErgoLab_files/BugyB.png" alt="">
+              </div>
+              <div>
+                <div class="rating">
+                  <div class="rating__stars">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-medium desktop-hidden d-flex-inline">
+                  <strong>Bugy B.</strong> -USA <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+                </p>
+              </div>
+            </div><!-- /.testimonials__meta -->
+            <p>
+              As a person with a spine that gets weaker by the day I was skeptical but pleasantly surprised. 
+              The amount of support offered is outstanding. I’m able to sit straight for longer periods of 
+              time with less pain. 10/10 would highly recommend.
+            </p>
+            <p class="text-medium tablet-hidden d-flex-inline">
+              <span class="text-md"><strong>Bugy B.</strong> -USA</span> <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+            </p>
+          </div><!-- /.testimonials__content -->
+        </div><!-- /.testimonials__item -->
+        <div class="testimonials__item">
+          <div class="testimonials__photo tablet-hidden">
+            <img src="./ErgoLab_files/Lynn.png" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__meta">
+              <div class="testimonials__photo desktop-hidden">
+                <img src="./ErgoLab_files/Lynn.png" alt="">
+              </div>
+              <div>
+                <div class="rating">
+                  <div class="rating__stars">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-medium desktop-hidden d-flex-inline">
+                  <strong>Lynn.</strong> -LA, USA <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+                </p>
+              </div>
+            </div><!-- /.testimonials__meta -->
+            <p>
+              I work twelve hour shifts in 911 dispatch center where you sit all night. I have only used the cushion 
+              lab cushion once but it made a huge difference. My bum and back both felt better than usual by the end of the night!
+            </p>
+            <p class="text-medium tablet-hidden d-flex-inline">
+              <span class="text-md"><strong>Lynn.</strong> -LA, USA</span> <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+            </p>
+          </div><!-- /.testimonials__content -->
+        </div><!-- /.testimonials__item -->
+        <div class="testimonials__item">
+          <div class="testimonials__photo tablet-hidden">
+            <img src="./ErgoLab_files/AnnieL.png" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__meta">
+              <div class="testimonials__photo desktop-hidden">
+                <img src="./ErgoLab_files/AnnieL.png" alt="">
+              </div>
+              <div>
+                <div class="rating">
+                  <div class="rating__stars">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-medium desktop-hidden d-flex-inline">
+                  <strong>Annie L.</strong> -Garden City, MI <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+                </p>
+              </div>
+            </div><!-- /.testimonials__meta -->
+            <p>
+              I drive the school bus. I have scoliosis, and a spinal fusion. My back loves these cushions. I’m lucky enough to own two of them. My back pain is less after driving with it on my school bus for a week!
+            </p>
+            <p class="text-medium tablet-hidden d-flex-inline">
+              <span class="text-md"><strong>Annie L.</strong> -Garden City, MI</span> <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+            </p>
+          </div><!-- /.testimonials__content -->
+        </div><!-- /.testimonials__item -->
+        <div class="testimonials__item">
+          <div class="testimonials__photo tablet-hidden">
+            <img src="./ErgoLab_files/BrookeK.png" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__meta">
+              <div class="testimonials__photo desktop-hidden">
+                <img src="./ErgoLab_files/BrookeK.png" alt="">
+              </div>
+              <div>
+                <div class="rating">
+                  <div class="rating__stars">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-medium desktop-hidden d-flex-inline">
+                  <strong>Brooke K.</strong> - Orlando, FL <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+                </p>
+              </div>
+            </div><!-- /.testimonials__meta -->
+            <p>
+              This Cushion has stopped my hip and back pain that is caused by sitting all day at my desk. 
+              I was seeing a Chiropractor twice a week. NOW I don’t have too. I read the reviews on this 
+              product from others. I bought it and Instantly I saw, noticed and felt the difference in my 
+              former discomfort and pain level. I think it is great that people can buy this product on a 
+              payment plan as well. The shipping is so fast. This is my third product in 1 year and I could 
+              not be happier. This is one of my BEST purchases ever. Thank you Cushion Lab.
+            </p>
+            <p class="text-medium tablet-hidden d-flex-inline">
+              <span class="text-md"><strong>Brooke K.</strong> - Orlando, FL</span> <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+            </p>
+          </div><!-- /.testimonials__content -->
+        </div><!-- /.testimonials__item -->
+        <div class="testimonials__item">
+          <div class="testimonials__photo tablet-hidden">
+            <img src="./ErgoLab_files/PakeL.png" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__meta">
+              <div class="testimonials__photo desktop-hidden">
+                <img src="./ErgoLab_files/PakeL.png" alt="">
+              </div>
+              <div>
+                <div class="rating">
+                  <div class="rating__stars">
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                    <span class="rating__star"></span>
+                  </div>
+                </div><!-- /.rating --> 
+                <p class="text-medium desktop-hidden d-flex-inline">
+                  <strong>Parke L.</strong> -Garden City, MI <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+                </p>
+              </div>
+            </div><!-- /.testimonials__meta -->
+            <p>
+              I have had the awesome cushion for a little over two weeks. 
+              It is a joy to be able to sit anywhere and be comfortable. 
+              I wish you all could make a carrying case for your pillows because 
+              I carry it everywhere. My pain has lessen greatly. More and more everyday. 
+              Thank you so much. I bought two. One I keep at my son’s for us all to use. Awesome.
+            </p>
+            <p class="text-medium tablet-hidden d-flex-inline">
+              <span class="text-md"><strong>Parke L.</strong> -Garden City, MI</span> <img class="icon-verified" src="./ErgoLab_files/verified.svg" alt=""> <span class="text-grey">Verified Buyer</span>
+            </p>
+          </div><!-- /.testimonials__content -->
+        </div><!-- /.testimonials__item -->
+      </div><!-- /.testimonials -->
+
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section light-blue-bg">
+    <div class="container">
+      <div class="text-center">
+        <h2>Choose Your Package <br> And Get Healthy Sleep Fover</h2>
+      </div>
+      <div class="new-buyer element">
+        <img class="new-buyer__icon" src="./ErgoLab_files/lamp.svg" alt="">
+        <p class="text-medium text-md">
+          New Buyer Tip: We recommend buying a pillow for each person in your household &amp; saving more on your purchase
+        </p>
+      </div><!-- /.new-buyer -->
+
+      <div class="pricing">
+        <div class="pricing__item">
+          <div class="pricing__label pricing__label--green">Best popular</div>
+          <div class="pricing__title">Buy 4</div>
+          <div class="pricing__img">
+            <img src="./ErgoLab_files/deep-sleep4.png" alt="">
+          </div>
+          <p>List Price: <strike class="text-red"><span class="text-grey">$9,960</span></strike></p>
+          <h2>$5,790</h2>
+          <p class="text-green text-bold">You Save $4,170</p>
+          <div class="try-free">
+            <a href="http://localhost:3000/#" class="btn btn--outline">ADD TO CART</a>
+            <small>-90-Day Money Back Guarantee-</small>
+          </div><!-- /.try-free -->
+          <div class="pricing__shipping">
+            <img class="pricing__icon" src="./ErgoLab_files/shipping(1).svg" alt="">
+            Fast &amp; Free Shipping
+          </div>
+        </div>
+        <div class="pricing__item pricing__item--middle">
+          <div class="pricing__label pricing__label--yellow">Most popular</div>
+          <div class="pricing__title">Buy 2</div>
+          <div class="pricing__img">
+            <img src="./ErgoLab_files/deep-sleep2.png" alt="">
+          </div>
+          <p>List Price: <strike class="text-red"><span class="text-body">$4,980</span></strike></p>
+          <h2>$3,390</h2>
+          <p class="text-green text-bold">You Save $4,170</p>
+          <div class="try-free">
+            <a href="http://localhost:3000/#" class="btn">ADD TO CART</a>
+            <small>-90-Day Money Back Guarantee-</small>
+          </div><!-- /.try-free -->
+          <div class="pricing__shipping">
+            <img class="pricing__icon" src="./ErgoLab_files/shipping(1).svg" alt="">
+            Fast &amp; Free Shipping
+          </div>
+        </div>
+        <div class="pricing__item">
+          <div class="pricing__title">Buy 1</div>
+          <div class="pricing__img">
+            <img src="./ErgoLab_files/deep-sleep1.png" alt="">
+          </div>
+          <p>List Price: <strike class="text-red"><span class="text-grey">$2,490</span></strike></p>
+          <h2>$1,790</h2>
+          <p class="text-green text-bold">You Save $700</p>
+          <div class="try-free">
+            <a href="http://localhost:3000/#" class="btn btn--outline">ADD TO CART</a>
+            <small>-90-Day Money Back Guarantee-</small>
+          </div><!-- /.try-free -->
+          <div class="pricing__shipping">
+            <img class="pricing__icon" src="./ErgoLab_files/shipping(1).svg" alt="">
+            Fast &amp; Free Shipping
+          </div>
+        </div>
+      </div><!-- /.pricing -->
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <div class="section">
+    <div class="container">
+      <div class="text-center element">
+        <h2>Your Questions Answered</h2>
+        <p>Check most frequently asked questions here.</p>
+      </div>
+
+      <div class="accordion element js-accordion">
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">What is the 90 day return policy?</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              We are sure you will love your ErgoLab cushions. Otherwise we’ll refund you 100% (we’ll cover the cost of the return too).
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              If you decide you don’t like the cushion for any reason. Just let us know within 90 days of receiving the product. then we will refund you
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">What is the warranty policy?</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              Some text
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              Some text
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">What’s my order status?</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              Some text
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              Some text
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">Do you offer free shipping?</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              Some text
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              Some text
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">How do I initiate a return?</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              Some text
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              Some text
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">When can I expect to receive my order</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              Some text
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              Some text
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+        <div class="accordion__item">
+          <div class="accordion__title js-accordion-btn">Does ErgoLab have any certifications?</div>
+          <div class="accordion__content js-accordion-content">
+            <p>
+              <strong>100% risk free</strong>
+              Some text
+            </p>
+            <p>
+              <strong>Shop with confidence</strong>
+              Some text
+            </p>
+          </div>
+        </div><!-- /.accordion__item -->
+      </div><!-- /.accordion -->
+
+      <div class="try-free mobile-hidden element">
+        <a href="http://localhost:3000/#" class="btn btn--triangle">TRY IT RISK-FREE</a>
+        <small>-90-Day Money Back Guarantee-</small>
+      </div><!-- /.try-free -->
+
+      <div class="text-center">
+        <h2>Shop With Confidence</h2>
+        <p class="text-md">
+          When you choose your best package and complete your order today, our team will prepare 
+          and ship your order right away via DHL Express… and send you a tracking number via email. 
+          So you can breathe easy knowing that better days are on their way!
+        </p>
+      </div>
+    </div><!-- /.container -->
+  </div><!-- /.section -->
+
+  <footer class="footer">
+    <div class="footer__top container">
+      <a href="http://localhost:3000/#" class="footer__logo"><img src="./ErgoLab_files/logo-white.png" alt=""></a>
+      <div class="footer__navs">
+        <a href="http://localhost:3000/#">Shipping</a>
+        |
+        <a href="http://localhost:3000/#">Returns</a>
+        |
+        <a href="http://localhost:3000/#">Privacy</a>
+        |
+        <a href="http://localhost:3000/#">Contact Us</a>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        2022 ErgoLab, All rights reserved.
+      </div><!-- /.container -->
+    </div><!-- /.copy -->
+  </footer>
+
+
+
+<script src="./ErgoLab_files/jquery-3.6.0.min.js.download"></script>
+<script src="./ErgoLab_files/slick.min.js.download"></script>
+<script src="./ErgoLab_files/script.js.download"></script>
+</body><loom-container id="lo-companion-container"><loom-shadow classname="resolved"></loom-shadow></loom-container><loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container></html>

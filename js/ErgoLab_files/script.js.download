@@ -1,0 +1,76 @@
+$(function () {
+  $(document).ready(function(){
+    // Mobile haeder menu 
+    $('.js-menu-btn').on('click', function (){
+      if ($(this).hasClass('opened')) {
+        $(this).removeClass('opened');
+        $('.js-menu').slideUp();
+      } else {
+        $(this).addClass('opened');
+        $('.js-menu').slideDown();
+      }
+    });
+
+    // Banner sliders 
+
+    $('.js-banner-mobile-slider').slick({
+      dots: true,
+      infinite: true,
+      arrows: false,
+      centerMode: true,
+      centerPadding: '25px',
+    });  
+
+    $('.js-banner-general-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+    });
+    $('.js-banner-nav > div').click(function() {
+      $('.js-banner-general-slider').slick('slickGoTo',$(this).index());
+    })
+    
+    // Accordion
+    $('.js-accordion').on('click', '.js-accordion-btn', function(){
+      let parent = $(this).parent();
+
+      if (parent.hasClass('opened')) {
+        parent.removeClass('opened').find('.js-accordion-content').slideUp();
+      } else {
+        parent.addClass('opened').find('.js-accordion-content').slideDown();
+      }
+    });
+
+    // Progress bar
+    $('.js-progress-parent').each(function(){
+      let progressVal = $(this).find('.js-progress-val').text();
+      $(this).find('.js-progress').width(progressVal);
+    });
+
+    // Reviews slider on mobile
+    var windowWidth = $(window).width();
+    $(window).on('resize', function(){
+      windowWidth = $(window).width();
+      intialSlick(windowWidth, $('.js-mobile-slider'));     
+    });
+
+    intialSlick(windowWidth, $('.js-mobile-slider'));
+    
+
+    function intialSlick(width, slider) {
+      if (width < 768) {
+        slider.slick({
+          dots: true,
+          infinite: true,
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+        });
+      } else {
+        slider.filter('.slick-initialized').slick('unslick');
+      }
+    }
+
+  });
+});
