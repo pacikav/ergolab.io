@@ -1,0 +1,9 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="39.836" height="43.819" viewBox="0 0 39.836 43.819">
+  <g id="Area" transform="translate(0)" fill="#ffd753" stroke="#fd49c6" stroke-width="1" opacity="0">
+    <rect width="39.836" height="43.819" stroke="none"/>
+    <rect x="0.5" y="0.5" width="38.836" height="42.819" fill="none"/>
+  </g>
+  <g id="Icon-2" data-name="Icon" transform="translate(2.879 4.044)">
+    <path id="Path" d="M19.279,1.667l5.442,11.024L36.89,14.47l-8.8,8.576,2.078,12.119L19.279,29.44,8.394,35.166l2.078-12.119-8.8-8.576,12.169-1.78Z" transform="translate(-1.667 -1.667)" fill="#ffd753" stroke="#3e3e3e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.667"/>
+  </g>
+</svg>
